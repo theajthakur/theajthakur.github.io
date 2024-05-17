@@ -1,0 +1,59 @@
+a.navbar-brand h1 {
+  font-size: 2rem;
+}
+
+.color-primary {
+  color: #ffe800;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  overflow-y: hidden;
+  background: #00161f;
+}
+
+.navbar-nav a.nav-link:hover {
+  color: #ffe800;
+}
+
+.fancy_heading {
+  color: #ffe800;
+  text-align: center;
+  position: relative;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+.fancy_heading:before {
+  content: "";
+  width: 100%;
+  background: #ffe800;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+}
+
+.fancy_heading span {
+  padding: 0 10px;
+  background: #00161f;
+  z-index: 9;
+  position: relative;
+  display: inline-block;
+}
+
+p {
+  color: #a8a8a8;
+}
+
+#contact form textarea,
+#contact form input {
+  width: 100%;
+  margin: 10px 0;
+  background: #ffffff17;
+  color: white;
+  border: 0;
+  resize: none;
+  padding: 10px;
+  border-radius: 5px;
+}

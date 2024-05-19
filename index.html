@@ -51,8 +51,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ms-auto">
-            <!-- Added flex utilities -->
+          <ul
+            class="navbar-nav ms-auto animate__animated animate__fadeInLeft animate__delay-1s"
+          >
             <li class="nav-item">
               <a class="nav-link" href="#">
                 <span class="d-sm-none fa fa-home"></span>
@@ -70,101 +71,175 @@
       </div>
     </nav>
     <div class="container">
-      <div class="hero-section my-3">
-        <div class="row">
+      <div class="hero-section">
+        <div class="row first_page">
           <div
-            class="col-sm-5 hero-image animate__animated animate__fadeInLeft"
+            class="my-3 col-sm-5 hero-image animate__animated animate__fadeInLeft"
           >
-            <div class="h-100"></div>
+            <div
+              class="d-flex h-100 justify-content-center align-items-center text-center"
+            >
+              <img src="/assets/images/hero.jpg" alt="Vijay Singh's Photo" />
+            </div>
           </div>
           <div
-            class="col-sm-7 hero-description animate__animated animate__fadeInRight"
+            class="my-5 col-sm-7 hero-description animate__animated animate__fadeInRight"
           >
-            <div class="h-100">
-              <h4 class="fancy_heading"><span>Hello</span></h4>
-              <h3 class="text-white mb-3">I'm Vijay Singh</h3>
-              <p>
-                <span>
-                  Full Stack Web Developer | Freelancer | Project Manager
-                </span>
-              </p>
-              <p>
-                Hi, I'm Vijay. With over 3+ years of experience in coding and
-                web development, I'm passionate about creating innovative
-                solutions. Welcome to my portfolio, where I showcase my love for
-                development and share my projects with you.
-              </p>
+            <div
+              class="d-flex h-100 justify-content-center align-items-center flex-column"
+            >
+              <div>
+                <h4 class="fancy_heading"><span>Hello</span></h4>
+                <h3 class="text-white mb-3 fa-3x">I'm Vijay Singh</h3>
+                <p>
+                  <span>
+                    Full Stack Web Developer | Freelancer | Project Manager
+                  </span>
+                </p>
+                <p>
+                  Hi, I'm Vijay. With over 3+ years of experience in coding and
+                  web development, I'm passionate about creating innovative
+                  solutions. Welcome to my portfolio, where I showcase my love
+                  for development and share my projects with you.
+                </p>
+                <div class="mt-5 mb-3">
+                  <button
+                    class="fancy_btn animate__animated animate__fadeInDown animate__delay-1s"
+                  >
+                    <span class="icon fa fa-laptop"></span>
+                    <span class="text">Hire Me</span>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="projects-container my-3"></div>
-      <div class="row animate__animated animate__fadeInUp">
-        <div class="col-sm-5 address my-3">
-          <div class="address-container text-white h-100" id="address">
-            <h4 class="fancy_heading"><span>Address</span></h4>
-            <p>
-              <span
-                class="fa fa-map-marker color-primary d-inline-block me-3"
-              ></span>
-              <span>Uttar Pradesh, India</span>
-            </p>
-            <p>
-              <span
-                class="fa fa-envelope color-primary d-inline-block me-3"
-              ></span>
-              <span>vijaysingh.handler@gmail.com</span>
-            </p>
-            <p>
-              <a
-                target="_blank"
-                href="https://github.com/theajthakur"
-                class="btn btn-outline-info"
-              >
-                <span class="fa fa-github"></span>
-              </a>
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/vijay-singh-07b1a62a9/"
-                class="btn btn-outline-primary"
-              >
-                <span class="fa fa-linkedin"></span>
-              </a>
-            </p>
+      <div class="projects-container" style="top: 100px; position: relative">
+        <div class="row animate__animated animate__fadeInUp animate__delay-2s">
+          <div class="col-sm-12 projects my-3">
+            <div class="project-container text-white h-100" id="project">
+              <h4 class="fancy_heading"><span>Projects</span></h4>
+              <div class="row my-3">
+                <div
+                  style="margin: 10px 0px"
+                  class="hover:scale-105 hover:ease-out duration-300 shadow-md col-sm-6 col-md-4 col-lg-4"
+                >
+                  <div class="portfolio-item_portfolio__item___GoM5">
+                    <a
+                      target="_blank"
+                      style="text-decoration: none"
+                      href="https://learn.piyushgarg.dev/learn/nextjs-14"
+                      rel="noreferrer"
+                      ><div class="bg-transparent">
+                        <div class="portfolio-item_portfolio__img__whmCV">
+                          <img
+                            alt="Master Next.js 14"
+                            src="https://www.piyushgarg.dev/_next/image?url=%2Fimages%2Fjava-master.webp&w=384&q=75"
+                          />
+                        </div>
+                        <h3 style="background: transparent">
+                          Master Next.js 14
+                        </h3>
+                        <p style="background: transparent">
+                          Learn Next.js with App router, Server Components and
+                          much more.
+                        </p>
+                        <div class="w-[100%] mt-5 lg:mt-0"></div>
+                        <div
+                          style="
+                            position: absolute;
+                            background: transparent;
+                            bottom: 20px;
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                          "
+                        >
+                          <span
+                            class="portfolio-item_portfolio__keyword__JJEwv my-1"
+                            >NextJS</span
+                          ><span
+                            class="portfolio-item_portfolio__keyword__JJEwv my-1"
+                            >Server-Components</span
+                          ><span
+                            class="portfolio-item_portfolio__keyword__JJEwv my-1"
+                            >Server-Actions</span
+                          >
+                        </div>
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-7 contact">
-          <div class="contact-container h-100" id="contact">
-            <h4 class="fancy_heading"><span>Contact</span></h4>
-            <form class="row">
-              <div class="col-sm-6">
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Your Name"
-                  required
-                />
-              </div>
-              <div class="col-sm-6">
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Your Email"
-                  required
-                />
-              </div>
-              <div class="col-sm-12">
-                <textarea
-                  rows="4"
-                  name="message"
-                  placeholder="Write Your Feedback/Query/Suggestion"
-                  required
-                ></textarea>
-              </div>
-              <div class="col-sm-12">
-                <button class="btn btn-warning w-100">Submit</button>
-              </div>
-            </form>
+          <div class="col-sm-5 address my-3">
+            <div class="address-container text-white h-100" id="address">
+              <h4 class="fancy_heading"><span>Address</span></h4>
+              <p>
+                <span
+                  class="fa fa-map-marker color-primary d-inline-block me-3"
+                ></span>
+                <span>Uttar Pradesh, India</span>
+              </p>
+              <p>
+                <span
+                  class="fa fa-envelope color-primary d-inline-block me-3"
+                ></span>
+                <span>vijaysingh.handler@gmail.com</span>
+              </p>
+              <p>
+                <a
+                  target="_blank"
+                  href="https://github.com/theajthakur"
+                  class="btn btn-outline-info"
+                >
+                  <span class="fa fa-github"></span>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/vijay-singh-07b1a62a9/"
+                  class="btn btn-outline-primary"
+                >
+                  <span class="fa fa-linkedin"></span>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-7 contact">
+            <div class="contact-container h-100" id="contact">
+              <h4 class="fancy_heading"><span>Contact</span></h4>
+              <form class="row">
+                <div class="col-sm-6">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="col-sm-6">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+                <div class="col-sm-12">
+                  <textarea
+                    rows="4"
+                    name="message"
+                    placeholder="Write Your Feedback/Query/Suggestion"
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-sm-12">
+                  <button class="btn btn-warning w-100">Submit</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
